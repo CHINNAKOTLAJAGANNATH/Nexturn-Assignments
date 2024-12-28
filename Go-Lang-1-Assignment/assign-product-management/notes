@@ -1,0 +1,25 @@
+/* Case Study for Students */
+
+Product Management System
+
+You will build a simple Product management System using GO as a RESRful API 
+using GO HTTP servere. The system will handle the following features
+
+- Manage a list of products with CRUD operations.
+- Each product will have the following attributes:
+    - ID (Unique Identifier)
+    - Name (Product Name)
+    - Description (Product Description)
+    - Price (Product Price)
+    - Category (Product Category)
+- The system should be able to:
+    - Add a new product.
+    - Update an existing product.
+    - Delete an product.
+    - Get a list of all products.
+    - Get details of a specific product.
+- Add Filtering and Sorting Functionality to the API:
+    - Filter products by category.   E.g., http://localhost:8080/products?category=Electronics
+    - Filter products by name.         E.g., http://localhost:8080/products?name=Mobile
+    - Sorting of products by price.   E.g., http://localhost:8080/products?sort=asc, http://localhost:8080/products?sort=desc
+
