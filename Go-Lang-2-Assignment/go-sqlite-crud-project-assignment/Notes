@@ -1,0 +1,5 @@
+go mod init go-sqlite-crud-project-assignment
+
+go get modernc.org/sqlite
+
+go get github.com/gin-gonic/gin
