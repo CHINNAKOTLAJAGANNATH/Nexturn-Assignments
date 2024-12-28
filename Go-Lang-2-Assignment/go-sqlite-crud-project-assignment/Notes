@@ -3,3 +3,10 @@ go mod init go-sqlite-crud-project-assignment
 go get modernc.org/sqlite
 
 go get github.com/gin-gonic/gin
+
+cmd:
+PS C:\Nexturn\5-Go-lang\go-sqlite-crud-project-assignment> sqlite3 .\myproducts.db
+
+sqlite> .tables
+
+sqlite> SELECCT * FROM products;
